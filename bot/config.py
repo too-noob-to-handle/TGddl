@@ -3,7 +3,7 @@ from os import environ as env
 class Telegram:
     API_ID = int(env.get("TELEGRAM_API_ID", 6))
     API_HASH = env.get("TELEGRAM_API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
-    OWNER_ID = int(env.get("OWNER_ID", 1881785806)
+    OWNER_ID = int(env.get("OWNER_ID", 1881785806))
     ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS", "").split()
     BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "Archive_DDL")
     BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "7127450499:AAFzC3buJLxkSVzp5xCC93P38_RHEuzPFyw")
