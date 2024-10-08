@@ -6,12 +6,12 @@ class Telegram:
     OWNER_ID = int(env.get("OWNER_ID", 1881785806))
     ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS", "").split()
     BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "Archive_DDL")
-    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "8065308695:AAHKG7hxIHo8VgTwOTrNaBXLxA4GrZhOfvY")
+    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "7719746759:AAHpu-9K6Ymghsd-YK7PBw_BDR2TiTYWD-4")
     CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1002186699988))
     SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 12))
 
 class Server:
-    BASE_URL = env.get("BASE_URL", "https://ddl.tgarchive.workers.dev")
+    BASE_URL = env.get("BASE_URL", "https://ddl.infinityfiles.eu.org")
     BIND_ADDRESS = env.get("BIND_ADDRESS", "0.0.0.0")
     PORT = int(env.get("PORT", 8060))
 
